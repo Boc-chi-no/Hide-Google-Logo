@@ -4,7 +4,9 @@
 // @version      1.0
 // @description  狗日的背后偷窥者,我们要自由的网络,自由的信息
 // @author       L Jea
-// @match        https://www.google.com/search?*
+// @match        https://www.google.*/search?*
+// @match        https://www.google.com.*/search?*
+// @match        https://www.google.co.*/search?*
 // @icon         https://www.google.com/s2/favicons?domain=google.com
 // @grant        none
 // ==/UserScript==
